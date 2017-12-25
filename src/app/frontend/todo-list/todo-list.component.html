@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Action</th>
+      <th>dueDate</th>
+      <th>Donne?</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let todo of todos" app-todo-item [todo]='todo'>
+    </tr>
+  </tbody>
+
+</table>
